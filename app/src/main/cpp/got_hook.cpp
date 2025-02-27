@@ -11,7 +11,7 @@
 #include "logger.h"
 #include "got_hook.h"
 
-#define PAGE_SIZE 4
+#define PAGE_SIZE 4096
 #define PAGE_START(addr) (addr >> 12 << 12)
 #define PAGE_END(addr) (PAGE_START + PAGE_SIZE)
 
